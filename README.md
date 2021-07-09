@@ -22,13 +22,13 @@ A Customized beautiful theme for KDE based distros
     - Add *candy-icons* after the "=" symbol
     - This sets a fallback, incase some icons are not found in BeautyLine, it'll look for the same icon in candy-icons and so on and so-forth
     - similary you can customize other icons themes
-
+- **Application Menu** - https://github.com/prateekmedia/Menu11 
 
 
 ## Light Mode 
 - Switch to **Arch-light** in *Plasma Style* 
 - and select and light mode color schemes in *Colors* to enjoy light mode.
- 
+
 
 
 # Features
@@ -79,6 +79,9 @@ Go to settings -> Workspace behavior -> Desktop effects _> Blur
 
 
 ## Dark Mode
+
+### Menu 11
+<img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/arch_dark_menu11.png">
 
 ### Widgets and Terminal
 <img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/arch_dark_look_1.png">
