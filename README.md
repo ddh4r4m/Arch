@@ -1,8 +1,37 @@
 # Arch (still in production)
 A Customized beautiful theme for KDE based distros
 
+# How to 
 
-## Features
+- Download Arch Global theme from the store.
+- Go to System Settings -> Appearance -> Global Theme
+
+## Dark Mode 
+
+- Go to **Application Style** and select Kvantum-dark
+- You can download Kvantum themes from kde store or clone it from  the repo
+- Install and apply the Kvantum theme using Kvantum Manager 
+- Now switch to **Plasma Style**  and select *Arch*
+- Now switch to **Color**  and select any dark mode color of your choice 
+- The default window decoration is *Breeze* but you can download *Sierra Breeze* or *Enhanced Sierra breeze* to enjoy more customization.
+- **Fonts** - I'd suggest you to get an alternative font that looks similar to *Google Sans*
+- **Icons** - There are multiple icon packs available in the store but the favorite ones include *Fluent dark*, *Flat Remix*, *Beauty line* + *Candy Icons* + *Sweet blue filled folders*
+    - To enjoy better view go to  *~/.local/share/icons/BeautyLine*
+    - open *index.theme*  
+    - There'll be line similar to *Inherits=breeze,adwaita,ubuntu-mono,yaru,Mint-X,elementary,hicolor*
+    - Add *candy-icons* after the "=" symbol
+    - This sets a fallback, incase some icons are not found in BeautyLine, it'll look for the same icon in candy-icons and so on and so-forth
+    - similary you can customize other icons themes
+
+
+
+## Light Mode 
+- Switch to **Arch-light** in *Plasma Style* 
+- and select and light mode color schemes in *Colors* to enjoy light mode.
+ 
+
+
+# Features
 The Theme supports three modes
 
 Translucent : Components are Translucent
