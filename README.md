@@ -1,6 +1,15 @@
 # Arch (still in production)
 A Customized beautiful theme for KDE based distros
 
+
+In this repository you'll find:
+
+- Kvantum Themes
+- Plasma Color Schemes
+- Plasma Desktop Themes
+- Plasma Look-and-Feel Themes
+
+
 # How to 
 
 - Download Arch Global theme from the store.
@@ -29,16 +38,21 @@ A Customized beautiful theme for KDE based distros
 - Switch to **Arch-light** in *Plasma Style* 
 - and select and light mode color schemes in *Colors* to enjoy light mode.
 
+## Recommendations
+
+- For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/tree/master/Kvantum).
+
+  Run `kvantummanager` to choose and apply **Arch** theme.
 
 
 # Features
-The Theme supports three modes
+The Theme supports three modes : 
 
-Translucent : Components are Translucent
+- ***Translucent*** : Components are Translucent
 
-Opaque : Components become solid
+- ***Opaque*** : Components become solid
 
-Adaptive : Components Turn to solid when any window is maximized otherwise remains transparent.
+- ***Adaptive*** : Components Turn to solid when any window is maximized otherwise remains transparent.
 
 <img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light-adaptive.png">  
 
@@ -59,15 +73,15 @@ Adaptive : Components Turn to solid when any window is maximized otherwise remai
 ## Glass effect
 <img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/Arch-light.png">
 
-To enable this effect 
+> To enable this effect 
 
-Go to settings -> Workspace behavior -> Desktop effects 
+*Go to settings -> Workspace behavior -> Desktop effects* 
 
-uncheck "Background contrast"
+*uncheck "Background contrast"*
 
 <img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/arch_glass_look_1.png">
 
-Tip : Vary the blur amount to your liking to get different looks.
+> Tip : Vary the blur amount to your liking to get different looks.
 
 
 Go to settings -> Workspace behavior -> Desktop effects _> Blur
@@ -103,3 +117,8 @@ Go to settings -> Workspace behavior -> Desktop effects _> Blur
 
 
 
+## Donate
+
+If you like my project, you can donate at:
+
+<span class="paypal"><a href="https://www.paypal.me/rkstrdee" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
