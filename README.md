@@ -4,9 +4,13 @@ A Customized beautiful theme for KDE based distros
 
 ## Features
 The Theme supports three modes
+
 Translucent : Components are Translucent
+
 Opaque : Components become solid
+
 Adaptive : Components Turn to solid when any window is maximized otherwise remains transparent.
+
 <img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light-adaptive.png">  
 
 # Some of the looks that can be achieved
@@ -28,7 +32,7 @@ Adaptive : Components Turn to solid when any window is maximized otherwise remai
 
 ## Dark Mode
 
-### widgets and Terminal
+### Widgets and Terminal
 <img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/arch_dark_look_1.png">
 
 ### Plasma theme 
