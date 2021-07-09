@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=A simple Dark Plasma Theme
+Name=Arch
+Encoding=UTF-8
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+
+Type=Service
+
+X-KDE-PluginInfo-Author=DharamDhurandhar
+X-KDE-PluginInfo-Category=Plasma Look And Feel
+X-KDE-PluginInfo-Email=rkstrdee@gmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL3.0
+X-KDE-PluginInfo-Name=Arch
+X-KDE-PluginInfo-Version=2.1
+X-KDE-PluginInfo-Website=https://github.com/rkstrdee/Arch
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1540593,kns://plasma-themes.knsrc/api.kde-look.org/1540609,kns://plasma-themes.knsrc/api.kde-look.org/1552551,kns://icons.knsrc/api.kde-look.org/1477945,kns://icons.knsrc/api.kde-look.org/1425426,kns://wallpaper.knsrc/api.kde-look.org/1541309,kns://wallpaper.knsrc/api.kde-look.org/1541305,kns://wallpaper.knsrc/api.kde-look.org/1541302,kns://wallpaper.knsrc/api.kde-look.org/1541308,kns://sddmtheme.knsrc/api.kde-look.org/1214121,kns://xcursor.knsrc/api.kde-look.org/1393084

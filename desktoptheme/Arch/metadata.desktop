@@ -23,6 +23,6 @@ X-Plasma-API=5.0
 
 [Wallpaper]
 defaultFileSuffix=.png
-defaultHeight=1920
-defaultWallpaperTheme=Next
-defaultWidth=1080
+defaultHeight=1080
+defaultWallpaperTheme=Arch
+defaultWidth=1920
