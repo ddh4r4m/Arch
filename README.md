@@ -30,6 +30,25 @@ Adaptive : Components Turn to solid when any window is maximized otherwise remai
 ## Glass effect
 <img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/Arch-light.png">
 
+To enable this effect 
+
+Go to settings -> Workspace behavior -> Desktop effects 
+
+uncheck "Background contrast"
+
+<img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/arch_glass_look_1.png">
+
+Tip : Vary the blur amount to your liking to get different looks.
+
+
+Go to settings -> Workspace behavior -> Desktop effects _> Blur
+
+<img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/arch_glass_look_2.png">
+
+<img src="https://github.com/rkstrdee/Arch/blob/main/Screenshots/arch_glass_look_3.png">
+
+
+
 ## Dark Mode
 
 ### Widgets and Terminal
