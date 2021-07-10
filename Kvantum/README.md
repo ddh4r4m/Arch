@@ -3,6 +3,11 @@
 
 [Steps to Set up Kvantum ](https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL.md#arch-based-distributions)
 
+
+### Kvantum Arch Light
+<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light-window.png">  
+
+
 ### Kvantum Arch Solid Toolbar
 <img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Kvantum/Screenshots/Arch-solid-toolbar.png">  
 
