@@ -108,6 +108,9 @@ Go to settings -> Workspace behavior -> Desktop effects _> Blur
 ### Kvantum Solid
 <img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Kvantum/Screenshots/Arch-solid.png">
 
+### Kvantum Solid Smooth
+<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Kvantum/Screenshots/Arch-solid-smooth.png">
+
 ### Kvantum Semi Solid
 <img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-semi-solid.png">
 
