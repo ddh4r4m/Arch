@@ -35,7 +35,7 @@
      inkscape:zoom="9.071039"
      showgrid="false"
      id="namedview23"
-     inkscape:window-height="742"
+     inkscape:window-height="741"
      inkscape:window-width="1366"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
@@ -100,7 +100,7 @@
        fill-opacity="0.1"
        id="path7" />
     <path
-       style="fill:#ff0000;fill-opacity:1"
+       style="fill:#0000ff;fill-opacity:1"
        class="ColorScheme-Text"
        d="m 33.969,13.594 v 40 h 1 v -40 z"
        color="#31363b"
@@ -126,7 +126,7 @@
        fill-opacity="0.1"
        id="path14" />
     <path
-       style="fill:#f80000;fill-opacity:1"
+       style="fill:#0000ff;fill-opacity:1"
        class="ColorScheme-Text"
        d="m 75.691,56.529 h -40 v 1 h 40 z"
        color="#31363b"
