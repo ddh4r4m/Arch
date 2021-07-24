@@ -54,24 +54,24 @@ The Theme supports three modes :
 
 - ***Adaptive*** : Components Turn to solid when any window is maximized otherwise remains transparent.
 
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light-adaptive.png">  
+<img src="https://i.imgur.com/2lEEl8T.png">  
 
 # Some of the looks that can be achieved
 
 ## default : light
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light-breeze.png">  
+<img src="https://i.imgur.com/uiayT7T.png">  
 
 ### Light mode
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light-white.png">  
+<img src="https://i.imgur.com/C7hpv53.png">  
 
 ### widgets look
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light-widgets.png">  
+<img src="https://i.imgur.com/Us1j2sH.png">  
 
 ### Kvantum Theme
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light-window.png">  
+<img src="https://i.imgur.com/Me1Gxbb.png">  
 
 ## Glass effect
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-light.png">
+<img src="https://i.imgur.com/WknU3lT.png">
 
 > To enable this effect 
 
@@ -79,16 +79,16 @@ The Theme supports three modes :
 
 *uncheck "Background contrast"*
 
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/arch_glass_look_1.png">
+<img src="https://i.imgur.com/HXDdamY.png">
 
 > Tip : Vary the blur amount to your liking to get different looks.
 
 
 Go to settings -> Workspace behavior -> Desktop effects _> Blur
 
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/arch_glass_look_2.png">
+<img src="https://i.imgur.com/tXFrzfS.png">
 
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/arch_glass_look_3.png">
+<img src="https://i.imgur.com/5DaQTSB.png">
 
 
 
@@ -97,28 +97,28 @@ Go to settings -> Workspace behavior -> Desktop effects _> Blur
 ### Menu 11
 - [Menu 11 - Download here !!](https://github.com/prateekmedia/Menu11) 
 
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/arch_dark_menu11.png">
+<img src="https://i.imgur.com/7Z0M4lh.png">
 
 ### Widgets and Terminal
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/arch_dark_look_1.png">
+<img src="https://i.imgur.com/7CrWIVE.png">
 
 ### Plasma theme 
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/arch_dark_look_2.png">
+<img src="https://i.imgur.com/zzGUPo7.png">
 
 ### Kvantum Solid
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Kvantum/Screenshots/Arch-solid.png">
+<img src="https://i.imgur.com/APVjDCN.png">
 
 ### Kvantum Solid Smooth
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Kvantum/Screenshots/Arch-solid-smooth.png">
+<img src="https://i.imgur.com/8ry8lBF.png">
 
 ### Kvantum Semi Solid
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Screenshots/Arch-semi-solid.png">
+<img src="https://i.imgur.com/3R4wOI4.png">
 
 ### Kvantum Solid Toolbar
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Kvantum/Screenshots/Arch-solid-toolbar.png">
+<img src="https://i.imgur.com/TZswQww.png">
 
 ### Kvantum Transparent Toolbar
-<img src="https://raw.githubusercontent.com/rkstrdee/Arch/main/Kvantum/Screenshots/Arch-transparent-toolbar.png">
+<img src="https://i.imgur.com/Cz7eCgq.png">
 
 
 
