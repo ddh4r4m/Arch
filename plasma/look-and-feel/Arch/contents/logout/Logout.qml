@@ -109,8 +109,8 @@ PlasmaCore.ColorScope {
         id: backgroundRect
         anchors.fill: parent
         //use "black" because this is intended to look like a general darkening of the scene. a dark gray as normal background would just look too "washed out"
-        color: "#161925"
-        opacity: 0.2
+        color: "#0F111A"
+        opacity: 0.7
     }
     MouseArea {
         anchors.fill: parent
@@ -175,7 +175,6 @@ PlasmaCore.ColorScope {
                 id: suspendButton
                 iconSource: "system-suspend"
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
-                border_color: "#43e97b"
                 action: root.sleepRequested
                 KeyNavigation.left: logoutButton
                 KeyNavigation.right: hibernateButton
@@ -185,7 +184,6 @@ PlasmaCore.ColorScope {
                 id: hibernateButton
                 iconSource: "system-suspend-hibernate"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Hibernate")
-                border_color: "#ff9966"
                 action: root.hibernateRequested
                 KeyNavigation.left: suspendButton
                 KeyNavigation.right: rebootButton
@@ -195,7 +193,6 @@ PlasmaCore.ColorScope {
                 id: rebootButton
                 iconSource: "system-reboot"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
-                border_color: "#c50ed2"
                 action: root.rebootRequested
                 KeyNavigation.left: hibernateButton
                 KeyNavigation.right: shutdownButton
@@ -206,7 +203,6 @@ PlasmaCore.ColorScope {
                 id: shutdownButton
                 iconSource: "system-shutdown"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
-                border_color: "#FF5E62"
                 action: root.haltRequested
                 KeyNavigation.left: rebootButton
                 KeyNavigation.right: logoutButton
@@ -217,7 +213,6 @@ PlasmaCore.ColorScope {
                 id: logoutButton
                 iconSource: "system-log-out"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log Out")
-                border_color: "#83B3AE"
                 action: root.logoutRequested
                 KeyNavigation.left: shutdownButton
                 KeyNavigation.right: suspendButton

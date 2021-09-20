@@ -32,7 +32,7 @@ ActionButton {
     iconSize: units.iconSizes.huge
     circleVisiblity: activeFocus || containsMouse
     circleOpacity: 0.55 // Selected option's circle is instantly visible
-    opacity: activeFocus || containsMouse ? 1 : 0.7
+    opacity: activeFocus || containsMouse ? 0.7 : 0.5
     labelRendering: Text.QtRendering // Remove once we've solved Qt bug: https://bugreports.qt.io/browse/QTBUG-70138 (KDE bug: https://bugs.kde.org/show_bug.cgi?id=401644)
     font.underline: false
     font.pointSize: theme.defaultFont.pointSize + 1

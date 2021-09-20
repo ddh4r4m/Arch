@@ -68,13 +68,11 @@ SessionManagementScreen {
             palette.text: "#C3C7D1"
             
             background: Rectangle {
-                color: "#161925"
-                border.width: 1
-                border.color: "#0C0E15"
-                opacity: 0.7
+                color: "#181b28"
+                opacity: 0.5
                 radius: parent.width / 2
                 height: 30
-                width: parent.width + 20
+                width: 220
                 anchors.centerIn: parent
             }
 
@@ -112,39 +110,27 @@ SessionManagementScreen {
             Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Unlock")
             implicitHeight: passwordBox.height - units.smallSpacing * 0.5 // otherwise it comes out taller than the password field
             text: ">"
-            Layout.leftMargin: 30
+            Layout.leftMargin: 40
 
             contentItem: Text {
                 text: loginButton.text
                 font: loginButton.font
                 opacity: enabled ? 1.0 : 0.3
-                color: "#ffffff"
+                color: "#fefefe"
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
                 elide: Text.ElideRight
             }
 
             background: Rectangle {
-                id: buttonBorder
+                id: buttonBackground
                 width: 30
                 height: 40
                 radius: width / 2
                 rotation: -90
                 anchors.centerIn: parent
-
-                gradient: Gradient {
-                    GradientStop { position: 0.0; color: "#D300DC" }
-                    GradientStop { position: 1.0; color: "#8700FF" }
-                }
-            }
-
-            Rectangle {
-                id: buttonBackground
-                height: 28
-                width: 38
-                radius: height / 2
-                anchors.centerIn: buttonBorder
-                color: "#161925"
+                color: "#181b28"
+               
             }
 
             onClicked: startLogin()

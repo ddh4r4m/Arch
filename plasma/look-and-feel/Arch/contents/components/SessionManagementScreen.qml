@@ -61,7 +61,7 @@ Item {
 
     property alias userList: userListView
 
-    property int fontSize: config.fontSize
+    property int fontSize: 10
 
     default property alias _children: innerLayout.children
 

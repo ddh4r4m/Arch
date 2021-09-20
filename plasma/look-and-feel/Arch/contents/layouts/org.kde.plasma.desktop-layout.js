@@ -60,7 +60,7 @@ var layout = {
                         },
                         "/Configuration/General": {
                             "favoritesPortedToKAstats": "true",
-                            "icon": "start-here"
+                            "icon": "start-here-kde"
                         },
                         "/Shortcuts": {
                             "global": "Alt+F1"
@@ -68,17 +68,32 @@ var layout = {
                     },
                     "plugin": "org.kde.plasma.kickoff"
                 },
+                
                 {
-                    "config": {
-                        "/": {
-                            "immutability": "1"
-                        },
-                        "/Configuration": {
-                            "PreloadWeight": "0"
-                        }
+                  "config": {
+                      "/": {
+                          "immutability": "1"
+                      },
+                      "/Configuration": {
+                          "PreloadWeight": "0"
+                      },
+                      "/Configuration/General": {
+                          "length": "1108"
+                      }
+                  },
+                  "plugin": "org.kde.plasma.panelspacer"
+              },
+              {
+                "config": {
+                    "/": {
+                        "immutability": "1"
                     },
-                    "plugin": "org.kde.plasma.appmenu"
+                    "/Configuration": {
+                        "PreloadWeight": "0"
+                    }
                 },
+                "plugin": "org.kde.plasma.icontasks"
+            },
                 {
                     "config": {
                         "/": {
@@ -107,7 +122,8 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "immutability": "1"
+                            "immutability": "1",
+                            "showDate":false
                         },
                         "/Configuration": {
                             "PreloadWeight": "0"
@@ -131,9 +147,9 @@ var layout = {
                     "PreloadWeight": "0"
                 }
             },
-            "height": 1.375,
+            "height": 1.8,
             "hiding": "normal",
-            "location": "top",
+            "location": "bottom",
             "maximumLength": 85.375,
             "minimumLength": 85.375,
             "offset": 0

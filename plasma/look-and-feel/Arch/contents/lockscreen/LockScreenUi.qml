@@ -179,8 +179,6 @@ PlasmaCore.ColorScope {
             footer: footer
             clock: clock
             formBg: formBg
-            blurArea: blurArea
-            blur: blur
             z: -3
         }
 
@@ -226,7 +224,7 @@ PlasmaCore.ColorScope {
 
         StackView {
             id: mainStack
-            anchors.left: parent.left
+            anchors.centerIn: parent
 
             height: lockScreenRoot.height + units.gridUnit * 3
             width: parent.width / 3
@@ -311,7 +309,16 @@ PlasmaCore.ColorScope {
                 }
             }
         }
-
+        Rectangle {
+            id: formBg
+            width: mainStack.width
+            height: mainStack.height / 3
+            anchors.centerIn: mainStack
+            radius: 10
+            color: "#181b28"
+            opacity: 0.5
+            z:-1
+        }
         Loader {
             id: inputPanel
             state: "hidden"
@@ -494,38 +501,6 @@ PlasmaCore.ColorScope {
             }
         }
 
-        Rectangle {
-            id: formBg
-            anchors.fill: mainStack
-            anchors.centerIn: mainStack
-            color: "#161925"
-            opacity: 0.5
-            z:-1
-        }
-
-        ShaderEffectSource {
-            id: blurArea
-            sourceItem: wallpaper
-            width: formBg.width
-            height: formBg.height
-            anchors.centerIn: formBg
-            sourceRect: Qt.rect(x,y,width,height)
-            visible: true
-            z:-2
-        }
-
-        GaussianBlur {
-            id: blur
-            height: formBg.height
-            width: formBg.width
-            source: blurArea
-            radius: 50
-            samples: 50 * 2 + 1
-            cached: true
-            anchors.centerIn: formBg
-            visible: true
-            z:-2
-        }
 
         Loader {
             active: root.viewVisible
@@ -547,7 +522,7 @@ PlasmaCore.ColorScope {
                 margins: units.smallSpacing
             }
 
-            Battery {}
+            
 
             PlasmaComponents.ToolButton {
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
@@ -564,7 +539,7 @@ PlasmaCore.ColorScope {
                 Layout.fillWidth: true
             }
 
-            
+            Battery {}
         }
     }
 

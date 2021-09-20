@@ -34,8 +34,6 @@ Item {
     property Item mainStack
     property Item footer
     property Item formBg
-    property Item blurArea
-    property Item blur
     property alias source: wallpaperBlur.source
     state: lockScreenRoot.uiVisible ? "on" : "off"
     property real factor: 0
@@ -118,7 +116,11 @@ Item {
             }
             PropertyChanges {
                 target: wallpaperFader
-                factor: 0
+                factor: 1
+            }
+            PropertyChanges {
+                target: formBg
+                opacity: 0.5
             }
             PropertyChanges {
                 target: clock.shadow
@@ -129,18 +131,6 @@ Item {
                 opacity: 1
                 anchors.horizontalCenter: formBg.horizontalCenter
                // y: parent.height - height - 10
-            }
-            PropertyChanges {
-                target: formBg
-                opacity: 0.5
-            }
-            PropertyChanges {
-                target: blurArea
-                opacity: 1
-            }
-            PropertyChanges {
-                target: blur
-                opacity: 1
             }
         },
         State {
@@ -158,24 +148,16 @@ Item {
                 factor: 0
             }
             PropertyChanges {
+                target: formBg
+                opacity: 0
+            }
+            PropertyChanges {
                 target: clock.shadow
                 opacity: wallpaperFader.alwaysShowClock ? 1 : 0
             }
             PropertyChanges {
                 target: clock
                 opacity: wallpaperFader.alwaysShowClock ? 1 : 0
-            }
-            PropertyChanges {
-                target: formBg
-                opacity: 0
-            }
-            PropertyChanges {
-                target: blurArea
-                opacity: 0
-            }
-            PropertyChanges {
-                target: blur
-                opacity: 0
             }
         }
     ]

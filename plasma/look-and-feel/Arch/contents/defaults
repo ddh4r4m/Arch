@@ -2,16 +2,16 @@
 cursorTheme=Sweet-cursors
 
 [kdeglobals][General]
-ColorScheme=ArchSmooth
+ColorScheme=ArchPurple
 
 [plasmarc][Theme]
 name=Arch
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.kde.breeze.desktop
+LayoutName=big_icons
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.kde.breeze.desktop
+LayoutName=big_icons
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.breeze
@@ -20,7 +20,7 @@ library=org.kde.breeze
 Theme=Fluent
 
 [Wallpaper]
-Image=Arch
+Image=ArchBlueLiquid
 
 
 
